@@ -1,7 +1,7 @@
 {
-  "name": "your-game-api",
+  "name": "LibraQuest",
   "version": "1.0.0",
-  "description": "CHANGE_ME - one sentence about your game (CS 313 Software Engineering 1)",
+  "description": "Answer speed-based library questions, collect stars, and race to the top of the library leaderboard. (CS 313 Software Engineering 1)",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -19,7 +19,7 @@
   "engines": {
     "node": ">=22"
   },
-  "author": "CHANGE_ME - your full name",
+  "author": "Mark John Nichol R. Quezon",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^18.0.7",
