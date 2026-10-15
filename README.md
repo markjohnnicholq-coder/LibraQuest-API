@@ -1,6 +1,6 @@
-# [Libraquest] API
+# LibraQuest API
 
-Backend API for **[Libraquest]**, a tournament game for the SorSU Bulan Campus library.
+Backend API for **LibraQuest**, a tournament game for the SorSU Bulan Campus library.
 CS 313 Software Engineering 1, A.Y. 2026-2027.
 
 - Developer: Mark John Nichol R. Quezon (markjohnnicholq-coder), BSCS 3-2
@@ -20,8 +20,8 @@ This is my own build of my group's game concept. Every commit in this repository
 ## Setup
 
 ```
-git clone [repository-url]
-cd [folder-name]
+git clone https://github.com/markjohnnicholq-coder/LibraQuest-API.git
+cd LibraQuest-API
 npm install
 ```
 
