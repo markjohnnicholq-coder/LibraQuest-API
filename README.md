@@ -60,11 +60,16 @@ Base URL: `http://localhost:3001/api/v1`
 
 ## What "completed" means in my game
 
-[One or two sentences: when does a player count as having completed a game? For example: "A player completed the game when they answered every question, even if some answers were wrong or timed out."]
+A player completed the game when they have finished answering all questions in the active game session, even if some answers were incorrect or timed out.
 
 ## Tables
 
-[List your tables, one line each, in the order of your migrations.]
+1. `users` - Player and host accounts, school IDs, full names, emails, and roles (Design Change Notice 01).
+2. `question_sets` - Question sets and modules categorized by subject and grade level.
+3. `questions` - Questions belonging to a question set, including choices, correct answers, and time limits.
+4. `game_sessions` - Game sessions hosted by users with a unique 6-digit join code and status lifecycle.
+5. `players` - Player session seats tracking nicknames, scores, completion status, and the rejoin rule constraint.
+6. `answers` - Individual question submissions recording player choices, response times, and stars earned.
 
 ## Database scripts
 
